@@ -1,4 +1,5 @@
-# Para acessar o site, por favor, clique no seguinte link: https://nickhirata.github.io/NickHirata.github.io-lista/
+# Para acessar o site, por favor, clique no seguinte link: 
+https://nickhirata.github.io/NickHirata.github.io-lista/
 
 # Lista de desejos de viagens
 
@@ -6,7 +7,7 @@ Explore o mundo com a minha lista de desejos de viagens! Descubra novos lugares 
 
 ## Como funciona
 
-O site apresenta uma lista de destinos de viagens, com descrições e imagens dos locais. Os usuários podem explorar a lista e adicionar seus próprios destinos à lista de desejos.
+O site apresenta uma lista de destinos de viagens, com descrições e imagens dos locais. Os usuários podem explorar a lista.
 
 ## Como contribuir
 
