@@ -5,7 +5,7 @@ Explore o mundo com a minha lista de desejos de viagens! Descubra novos lugares 
 
 ## Como funciona
 
-O site apresenta uma lista de destinos de viagens, com descrições e imagens dos locais. Os usuários podem explorar a lista.
+O site apresenta uma lista de destinos, com descrições e imagens dos locais. Os usuários podem explorar a lista.
 
 ## Como contribuir
 
