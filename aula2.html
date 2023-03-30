@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <title>Lista de desejos de viagens</title>
+        
+        <style>
+            #fundo{
+                width: 700px; 
+                 margin-left: auto;
+                 margin-right: auto; 
+                 line-height: 20px;
+                 
+                
+            }
+           
+            img{
+                width: 460px;
+                height: 290px;
+            }
+            .local{
+                color: rgba(99, 99, 99, 0.747);
+                text-align: center;
+                font-size: 15pt;
+                font-weight: bolder;
+            }
+            .titulo{
+                font-size: 23pt;
+                font-weight: bolder;
+                text-align: center;
+                
+            }
+            .descricao{
+                width: 700px;
+                height: 100px;
+                text-align: justify;
+                font-size:16pt;
+                
+            }
+            .foto{
+                margin-top: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            body{
+                background-color: #fef0ef;
+            }
+            ul{
+                text-align: center;
+                width: auto;
+                background: #84e;
+                position: relative;
+                font-weight:bold;
+               
+            }
+            #cabeca{
+                top:0px;
+                left:0px;
+            }
+            #rodape{
+                bottom:0px;
+                left:0px;
+            
+            }
+            ul li {
+                display: inline-flex;
+                padding-left: 0px;
+            }
+            ul li a {
+                display: inline-flex;
+                border-radius: 4px;
+                color: white;
+                font-size: 15pt;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: monospace;
+                
+            }
+
+            ul li a:hover {
+                background: rgba(0,0,0,.2);
+               
+            }
+            img:hover ~ .info {
+                 display: inline-flex;
+            }
+
+            .info {
+                display:none;
+                color: #fff;
+                background-color: #84e;
+                width: auto;
+                padding: 5px;
+                border-radius: 4px;
+                position: relative;
+                top: 10px;
+                left: 10%;
+            }
+
+        </style>
+    </head>
+    <!--id especifico unico link referenciar // class geral repetir-->
+    <body>
+        
+
+        
+        <div id="fundo">
+            <ul id="cabeca">
+                <li><a href="#final">Ir para o final</a></li>
+            </ul>    
+            
+            <div id="topo">
+                <p class="titulo">Balneário Camboriú</p>
+                <p class="local">Município em Santa Catarina</p>
+                <div class="descricao">
+                   Balneário Camboriú é uma cidade turística no estado de Santa Catarina, no sul do Brasil. É conhecida pelos grandes edifícios e por praias como a Praia Central. Bares, restaurantes e lojas preenchem a Avenida Atlântica, uma avenida movimentada junto à praia. O Parque Unipraias fica na foz do Rio Camboriú e oferece vistas a partir das tirolesas e dos teleféricos. O monumento Cristo Luz, uma enorme estátua de Cristo, contempla a cidade.
+                </div>
+                <div class="foto">
+                   <img src="https://a.cdn-hotels.com/gdcs/production1/d453/51ba19a2-a05f-462d-8edf-2e8f1b2662d5.jpg" > 
+                   <div class="info">
+                        Curiosidades<br>
+                        1. Balneário Camboriú é conhecida como a "Dubai brasileira".<br>
+                        2. A cidade tem a maior avenida beira-mar do Brasil.<br>
+                        3. Praia Central é uma das mais movimentadas do país.<br>
+                        4. Teleférico liga praia central ao morro da cidade.<br>
+                        5. Roda Gigante BC tem 65 metros de altura.<br>
+                    </div>
+           </div>
+            <br><br>
+           <div id="viagem">
+                <p class="titulo">Bonito</p>
+                <p class="local">Município no Mato Grosso do Sul</p>
+                <div class="descricao">
+                    Bonito é uma cidade e centro de ecoturismo no estado brasileiro de Mato Grosso do Sul. A área circundante é conhecida pelos rios de água translúcida, como o Rio da Prata, um destino de snorkeling repleto de peixes. O Abismo Anhumas é uma enorme caverna coberta de estalactites que permite a prática de rapel e de mergulho num lago subterrâneo. Bandos de araras criam ninhos no profundo Buraco das Araras, de cor ocre. 
+                </div>
+                <div class="foto">
+                    <img src="https://www.viagensecaminhos.com/wp-content/uploads/2021/06/balneario-municipal-bonito.jpg" >
+                    <div class="info">
+                        Curiosidades<br>
+                        1. Bonito é um dos principais destinos de ecoturismo do Brasil.<br>
+                        2. A região é conhecida por suas águas cristalinas e cavernas subaquáticas.<br>
+                        3. A Gruta do Lago Azul é um dos principais pontos turísticos da região.<br>
+                        4. O Rio da Prata é considerado um dos rios mais transparentes do mundo.<br>
+                        5. A cidade possui várias opções de trilhas e cachoeiras para visitar.<br>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div id="viagem">
+                <p class="titulo">Cairo</p>
+                <p class="local">Capital do Egito</p>
+                <div class="descricao">
+                    Cairo, a grande capital do Egito, está localizada às margens do rio Nilo. Em seu centro, ficam a Praça Tahrir e o amplo Museu Egípcio, que exibe uma coleção de antiguidades, como múmias reais e artefatos dourados do Rei Tutancâmon. Perto dali fica Gizé, local das famosas pirâmides e da Grande Esfinge, que data do século XXVI a.C. Na área arborizada de Zamalek, na ilha de Gezira, a Torre do Cairo, com 187 m de altura, proporciona vistas panorâmicas da cidade. 
+                </div>
+                <div class="foto">
+                    <img src="https://blogvidanoegito.files.wordpress.com/2019/11/esfinge.jpg?w=1024" >
+                </div>
+            </div>
+            <br><br>
+            <div id="viagem">
+                <p class="titulo">Grécia</p>
+                <p class="local">País nos Balcãs</p>
+                <div class="descricao">
+                    A Grécia é um país do sudeste da Europa com milhares de ilhas espalhadas pelos mares Egeu e Jônico. Bastante influente na antiguidade, a nação é considerada o berço da civilização ocidental. Atenas, sua capital, conserva monumentos como a Acrópole, do século V a.C., onde fica o templo Partenon. A Grécia também é conhecida por suas praias, como Santorini, com suas areias escuras, e os festivos complexos hoteleiros de Míconos.  
+                </div>
+                <div class="foto">
+                    <img src="https://lh5.googleusercontent.com/p/AF1QipN9x0rHF16AoSKoHvP2orHxBzGZBz9x7V3Vlir2=w426-h240-k-no" >
+                </div>
+            </div>
+            <br><br>
+            <div id="viagem">
+                <p class="titulo">Maldivas</p >
+                <p class="local">País na Ásia Meridional</p>
+                <div class="descricao">
+                    As Maldivas são uma nação tropical no Oceano Índico composta por 26 atóis em formato de anel, que são formados por mais de 1.000 ilhas de coral. O país é conhecido pelas praias, pelas lagoas azuis e pelos extensos recifes. A capital, Malé, tem um movimentado mercado de peixes, restaurantes e lojas na rua principal, Majeedhee Magu, além da Hukuru Miskiy (também conhecida como Mesquita da Sexta-Feira), do século XVII, feita de coral branco esculpido. 
+                </div>
+                <div class="foto">
+                    <img src="https://uploads.metropoles.com/wp-content/uploads/2021/11/05172056/Maldivas_Hospedagem.jpg" >
+                </div>
+            </div>
+
+            <br><br>
+            <div id="viagem">
+                <p class="titulo">Dubai</p >
+                <p class="local">Cidade nos Emirados Árabes Unidos</p>
+                <div class="descricao">
+                    Dubai é uma cidade e um emirado dos Emirados Árabes Unidos conhecida pelos shoppings de luxo, pela arquitetura ultramoderna e pela animada vida noturna. Burj Khalifa, uma torre de 830 metros de altura, domina a linha do horizonte repleta de arranha-céus. Na base, há a Fonte de Dubai, com jatos de água e luzes coreografados ao som de música. Nas ilhas artificiais próximas à costa, fica o Hotel Atlantis, um resort com parques aquáticos e de animais marinhos.
+                </div>
+                <div class="foto">
+                    <img src="http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTnavcE0R1cW9vbZSJU9A_92W41dYEqmnQRVz51osw9lq-dYLXMRz2uqIIL1LrWzvQN">
+            </div>
+            <br><br>
+            <div id="viagem">
+                <p class="titulo">Toronto</p >
+                <p class="local">Cidade no Canadá</p>
+                <div class="descricao">
+                    Toronto, a capital da província de Ontário, é uma grande cidade canadense localizada ao longo da costa noroeste do Lago Ontário. Ela é uma metrópole dinâmica com um centro de arranha-céus imponentes, todos ofuscados pela famosa Torre CN. Toronto também tem muitos espaços verdes, incluindo desde o oval Queen’s Park até o High Park, com 400 acres de área, além de trilhas, instalações esportivas e um jardim zoológico.
+                </div>
+                <div class="foto">
+                    <img src="https://cdn.britannica.com/93/94493-050-35524FED/Toronto.jpg">
+            </div>
+            <br><br>
+            <div id="final">
+                <p class="titulo">Parque Nacional dos Lençóis Maranhenses</p>
+                <p class="local">Parque nacional no Maranhão</p>
+                <div class="descricao">
+                    O Parque Nacional dos Lençóis Maranhenses é uma área protegida na costa atlântica norte do Brasil. É conhecido pela sua vasta paisagem desértica de grandes dunas de areia branca e pelas lagoas sazonais de água da chuva. A Lagoa Azul e a Lagoa Bonita são duas das maiores lagoas. O ecossistema diversificado do parque inclui pântanos de mangais. As cidades vizinhas de Barreirinhas e Santo Amaro do Maranhão servem de porta de entrada para o parque.
+                </div>
+                <div class="foto">
+                    <img src="https://rotacombo.com/blog/wp-content/uploads/2020/02/lencois_maranhenses.jpg">
+            </div>
+
+        </div>
+
+        <ul id="rodape">
+            <li><a href="#cabeca">Ir para o início</a></li>
+        </ul>
+    </body>
+</html>
